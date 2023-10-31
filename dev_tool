@@ -4,9 +4,7 @@
 current_dir=$(pwd)
 
 # Change to the target directory
-current_directory=$(pwd)
-#echo "The current working directory is: $current_directory"
-cd $current_directory
+cd /home/borislav/Desktop/ferris/dev_tool/
 
 # Execute the Python script
 python3 main.py
