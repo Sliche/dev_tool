@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Get the current working directory
+current_dir=$(pwd)
+
+# Change to the target directory
+current_directory=$(pwd)
+#echo "The current working directory is: $current_directory"
+cd $current_directory
+
+# Execute the Python script
+python3 main.py
+
+# Change back to the previous working directory
+cd "$current_dir"
+
